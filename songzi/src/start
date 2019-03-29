@@ -1,0 +1,2 @@
+#!/bin/bash
+./sz -c config.js

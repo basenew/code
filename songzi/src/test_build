@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ main.cpp data_mgr.cpp conn_pool.cpp -g -std=c++11 -pthread  -lmysqlclient -lcppcms -o test
