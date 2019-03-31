@@ -1,9 +1,10 @@
-#pragma once
-#include "../../comm/comm_include.h"
-#include "../../comm/server_frame/server_frame.h"
-#include "../../comm/server_frame/tcp_acceptor.h"
-#include "../../comm/server_frame/tcp_transmitter.h"
-#include "../../comm/vector_list.h"
+#include "../../comm/sys/includes.h"
+#include "../../comm/network/server_frame.h"
+#include "../../comm/network/socketop.h"
+#include "../../comm/network/epoll_reactor.h"
+#include "../../comm/network/tcp_acceptor.h"
+#include "../../comm/network/tcp_transmitter.h"
+#include "../../comm/mem_pool/vector_list.h"
 
 #include <list>
 
@@ -13,7 +14,7 @@ using namespace comm;
 class echo_server:public server_frame
 {
 public:
-	echo_server():server_frame(_reactor, _acceptor);
+	echo_server():server_frame(_reactor, _acceptor){};
 	~echo_server();	
 
 
@@ -22,7 +23,7 @@ public:
 		LOG_SYS << "echo_server start..." << endl;
 		using std::placeholders::_1 ;
 		using std::placeholders::_2 ;
-    		tcp_acceptor::accept_cb cb = std::bind(&on_connected,this,_1,_2);
+    		accept_cb cb = std::bind(&on_connected,this,_1,_2);
 		_acceptor.open("127.0.0.1", 9898, cb);
 		return 0;
 	};

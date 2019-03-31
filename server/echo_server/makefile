@@ -8,7 +8,7 @@ OBJS=$(SRCS:.cpp=.o)
 
 LIB_OBJS=$(patsubst %.cpp,%.o,$(LIB_SRCS)) 
 BINS=$(patsubst %.cpp,%.bin,$(BIN_SRCS))
-DEP_LIBS=libcomm.a
+DEP_LIBS=libnetwork.a
 
 LIB_NAME=
 SO_LIB=$(patsubst %,lib%.so,$(LIB_NAME))
