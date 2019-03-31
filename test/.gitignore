@@ -1,0 +1,11 @@
+test
+*.d
+*.o
+*.so
+*.a
+*.bin
+*.tar.gz
+*.tgz
+*.log
+core.*
+deploy

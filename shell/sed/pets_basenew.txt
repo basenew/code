@@ -1,0 +1,8 @@
+This is basenews cat
+  basenews cat's name is betty
+This is basenews dog
+  basenews dog's name is frank
+This is basenews fish
+  basenews fish's name is george
+This is basenews goat
+  basenews goat's name is adam
