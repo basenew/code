@@ -1,8 +1,0 @@
-This is basenew's cat
-  basenew's cat's name is betty
-This is basenew's dog
-  basenew's dog's name is frank
-This is basenew's fish
-  basenew's fish's name is george
-This is basenew's goat
-  basenew's goat's name is adam

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11 -O3 -fexceptions -fPIC -Wl,-v -Wall -Wno-strict-aliasing -Wno-unknown-pragmas -Wno-switch  -shared -Wl,-soname,libtest_lib.so -o libtest_lib.so CMakeFiles/test_lib.dir/lib.cpp.o  -L/home/basenew/mime/code/test_cmake/build/output/lib 

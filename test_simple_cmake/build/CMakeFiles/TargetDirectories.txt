@@ -1,0 +1,3 @@
+/home/basenew/mime/code/test_simple_cmake/build/CMakeFiles/rebuild_cache.dir
+/home/basenew/mime/code/test_simple_cmake/build/CMakeFiles/main.dir
+/home/basenew/mime/code/test_simple_cmake/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -O3 -fexceptions -fPIC -Wl,-v -Wall -Wno-strict-aliasing -Wno-unknown-pragmas -Wno-switch   CMakeFiles/test_main.dir/main.cpp.o  -o test_main  -L/home/basenew/mime/code/test_cmake/build/output/lib -Wl,-rpath,/home/basenew/mime/code/test_cmake/build/output/lib -llibtest_lib 

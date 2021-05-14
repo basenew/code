@@ -1,3 +1,0 @@
-#!/bin/bash
-
-g++ sz_svr.cpp sz_mapper.cpp data_mgr.cpp conn_pool.cpp -O0 -g -std=c++11 -pthread  -lmysqlclient -lcppcms -o sz 

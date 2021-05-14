@@ -1,0 +1,10 @@
+/home/basenew/mime/code/test_cmake/build/CMakeFiles/rebuild_cache.dir
+/home/basenew/mime/code/test_cmake/build/CMakeFiles/edit_cache.dir
+/home/basenew/mime/code/test_cmake/build/src/CMakeFiles/rebuild_cache.dir
+/home/basenew/mime/code/test_cmake/build/src/CMakeFiles/edit_cache.dir
+/home/basenew/mime/code/test_cmake/build/src/lib/CMakeFiles/rebuild_cache.dir
+/home/basenew/mime/code/test_cmake/build/src/lib/CMakeFiles/test_lib.dir
+/home/basenew/mime/code/test_cmake/build/src/lib/CMakeFiles/edit_cache.dir
+/home/basenew/mime/code/test_cmake/build/src/main/CMakeFiles/rebuild_cache.dir
+/home/basenew/mime/code/test_cmake/build/src/main/CMakeFiles/test_main.dir
+/home/basenew/mime/code/test_cmake/build/src/main/CMakeFiles/edit_cache.dir

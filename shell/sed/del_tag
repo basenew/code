@@ -1,2 +1,0 @@
-sed 's/<.*>//g' html
-sed 's/<[^>]*>//g' html
