@@ -9,7 +9,7 @@ public:
 		o << res.name_;
 	};
 
-	Res(const string& name):name_(name){
+	Res(const string& name=""):name_(name){
 		INFUNC();
 		cout << name_ << endl;
 		OUTFUNC();

@@ -1,0 +1,15 @@
+/mnt/work/mime/code/dvc/build/CMakeFiles/rebuild_cache.dir
+/mnt/work/mime/code/dvc/build/CMakeFiles/edit_cache.dir
+/mnt/work/mime/code/dvc/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/work/mime/code/dvc/build/src/CMakeFiles/edit_cache.dir
+/mnt/work/mime/code/dvc/build/src/comm/CMakeFiles/rebuild_cache.dir
+/mnt/work/mime/code/dvc/build/src/comm/CMakeFiles/edit_cache.dir
+/mnt/work/mime/code/dvc/build/src/net/CMakeFiles/rebuild_cache.dir
+/mnt/work/mime/code/dvc/build/src/net/CMakeFiles/edit_cache.dir
+/mnt/work/mime/code/dvc/build/src/proto/CMakeFiles/rebuild_cache.dir
+/mnt/work/mime/code/dvc/build/src/proto/CMakeFiles/edit_cache.dir
+/mnt/work/mime/code/dvc/build/src/db/CMakeFiles/rebuild_cache.dir
+/mnt/work/mime/code/dvc/build/src/db/CMakeFiles/edit_cache.dir
+/mnt/work/mime/code/dvc/build/src/app/echo_server/CMakeFiles/rebuild_cache.dir
+/mnt/work/mime/code/dvc/build/src/app/echo_server/CMakeFiles/edit_cache.dir
+/mnt/work/mime/code/dvc/build/src/app/echo_server/CMakeFiles/echo_server.dir

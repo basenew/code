@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -O3 -fexceptions -fPIC -Wl,-v -Wall -Wno-strict-aliasing -Wno-unknown-pragmas -Wno-switch -Wno-reorder -Wno-unused-function -Wno-unused-variable -Wno-unused-parameter -Wno-deprecated-declarations  -rdynamic CMakeFiles/echo_server.dir/main.cpp.o  -o ../../../../bin/echo_server  -L/mnt/work/mime/code/dvc/lib 
