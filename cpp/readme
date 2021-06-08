@@ -2,3 +2,17 @@ construct.cpp
 测试对象构造相关的原理
 tshared_ptr.cpp
 测试共享指针的原理和适用场景
+diamond_extend.cpp
+测试菱形继承
+type_size.cpp
+测试基本类型的大小
+endian.cpp
+测试大小端字节序
+obj_memory.cpp
+测试对象的内存布局，包括大小、对齐、顺序等
+stack_size.cpp
+测试堆栈大小
+const.cpp
+测试常量指示符
+polymorphic.cpp
+测试多态相关特性

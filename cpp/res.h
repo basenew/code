@@ -14,12 +14,13 @@ public:
 		cout << name_ << endl;
 		OUTFUNC();
 	};
-
-	~Res(){
+#if 0
+	virtual ~Res(){
 		INFUNC();
 		cout << name_ << endl;
 		OUTFUNC();
 	};
+#endif
 
 	void set_weak_res(shared_ptr<WeakRes> pwres){pwres_ = pwres;};
 private:
@@ -27,6 +28,10 @@ private:
 	shared_ptr<WeakRes> pwres_;
 };
 
+class ResEx:public Res{
+public:
+    virtual void vfunc(){};
+};
 
 class WeakRes:public Res{
 public:

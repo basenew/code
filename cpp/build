@@ -1,1 +1,11 @@
+#!/bin/bash
+echo "input params num:$#"
+
+if [ $# != 1 ];then echo 'please input compile file';exit 1;fi;
+
 g++ $1 -o test -std=c++11 -g
+
+if [ $? != 0 ];then echo 'pre command execute fail'; exit 1; fi;
+
+./test
+
